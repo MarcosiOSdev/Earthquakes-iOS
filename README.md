@@ -10,6 +10,9 @@ Use this project to code along with [Caching network data](https://developer.app
 2. NSCache with TaskGroup and store `.inProgress` or `.ready`.
 3. Formatter Number in `QuakeDetailView`.
 4. `Preview Content` files to create mocks on develop environment.
+5. SwiftUI with `EditMode` and `SelectMode` (Custom) to List.
+6. SwiftUI with `@ToolbarContentBuilder`. Toolbar dynamic on top and bottom app.
+7. Map , simple Map with Pin, Center and Span.
 
 
 

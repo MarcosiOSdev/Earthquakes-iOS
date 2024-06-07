@@ -20,6 +20,11 @@ struct QuakeDetailView: View {
     
     var body: some View {
         VStack {
+            if let location {
+                QuakeDetailMapView(location: location, tintColor: quake.color)
+                    .ignoresSafeArea()
+            }
+            
             QuakeMagnitudeView(quake: quake)
             Text(quake.place)
                 .font(.title3)
